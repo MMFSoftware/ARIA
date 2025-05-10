@@ -1,3 +1,4 @@
+![ARIA](screenshots/ARIA.png)
 # A.R.I.A - AI Review for Image Analysis
 
 ![ARIA Main Interface](screenshots/splash_screen.png)

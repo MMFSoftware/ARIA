@@ -1,4 +1,6 @@
-![ARIA](screenshots/ARIA.png)
+<p align="center">
+  <img src="screenshots/ARIA.png" alt="ARIA" width="300" height="300" style="border-radius: 12px;">
+</p>
 # A.R.I.A - AI Review for Image Analysis
 
 ![ARIA Main Interface](screenshots/splash_screen.png)

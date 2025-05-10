@@ -6,10 +6,16 @@
 
 ARIA (AI Review for Image Analysis) is a macOS application designed to provide intelligent analysis and insights for images. The application allows users to upload up to 4 images, ask questions or provide prompts about the images, and receive AI-generated responses that analyze the visual content.
 
+## Loom Demo Video
+https://www.loom.com/share/3d0724814de0473d8af175c31587ddf1
+
 ## Screenshots
 
 ![Home Screen](screenshots/home_empty.png)
 *The main interface allows users to add images and type their prompts*
+
+![Multiple Images Analysis](screenshots/home_with_input.png)
+*The user can adds up to 4 images*
 
 ![Multiple Images Analysis](screenshots/results.png)
 *ARIA can analyze up to 4 images simultaneously*
@@ -55,8 +61,8 @@ The application is designed with a service-based architecture that facilitates e
 
 ```swift
 protocol ChatBotServiceProtocol {
-    func getResponseForImage(image: NSImage, prompt: String) async -> String
-    func processImages(images: [NSImage], prompt: String) async -> [String]
+    func process(image: NSImage, prompt: String) async -> String
+    func batchProcess(images: [NSImage], prompt: String) async -> [String]
 }
 ```
 
